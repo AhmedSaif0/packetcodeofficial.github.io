@@ -1,0 +1,329 @@
+/*
+theme name: Elitecorp
+them coder: ahmed saif
+psd designer:
+first color:#08526d
+scoind color: #ec1c23
+
+*/
+
+
+/* upper-bar*/
+body{
+	/*background-color: #f9fafb;*/
+	height: 4000px;
+}
+
+.upper-bar{
+    
+    background-color: #08526d;
+    color: white;
+    padding: 5px;
+    
+}
+.upper-bar .begin_work{
+    
+    display: inline-block;
+    border: 2px solid #ec1c23;
+    padding: 3px;
+    margin-left: 20px;  
+}
+
+.navbar{
+    height: 62px;
+    
+}
+
+
+/*  End upper-bar*/
+
+/*Start navbar*/
+.navbar-brand > span{
+     font-size: 40px;
+	    
+
+}
+
+.navbar-brand span:first-child{
+    
+    color: #08526d;
+     font-weight: bold;
+   
+}    
+
+.navbar-brand span:last-child{
+    color: #ec1c23;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.5rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    
+    color: #ec1c23;
+}
+/*Start navbar*/
+
+
+
+/*Start slider*/
+
+.slider{
+    
+      background-color: #ddd;
+	
+}
+
+.carousel-item{
+    
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+}
+
+.slider .carousel-one{
+	background-image: url('../img/campaign.jpg')
+
+}
+
+
+.slider .carousel-two{
+	
+background-image: url('../img/responsive.jpg')
+}
+
+
+.slider .carousel-three{
+	
+	background-image: url('../img/Web-Design.jpg')
+
+}
+
+.slider .carousel-indicators li{
+	
+	color:darkcyan;
+	height: 8px;
+}
+
+
+.slider .carousel-inner .overlay{
+	
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 2;
+
+}
+
+.slider .carousel-inner h1{
+	
+
+    position: absolute;
+    z-index: 3;
+    color: white;
+    top: 71px;
+	text-align:end;
+	right: 66px;
+}
+	
+
+.slider .carousel-inner h1 span{
+	
+    color: white;
+    background-color: #ec1c23;
+    padding: 4px 10px
+
+}
+
+
+
+/* start feture */
+.feture{
+	
+	padding: 50px 0	;
+}
+ 
+.feture i {
+	
+    font-size: 3em;
+    background-color: #ec1c23;
+    color: white;
+	padding: 9px;
+	margin-top: 12px;
+}
+
+
+
+.feture .row {
+
+	justify-content: space-around;
+	    margin-top: 27px;
+
+}
+
+    
+.feture .row h3 {
+
+	
+ color: #08526d;
+
+}
+
+
+.feture .row p {
+
+	
+ color: #808784;
+
+}
+
+.overview {
+	
+    padding: 100px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+.overview h1 {
+	
+    TEXT-TRANSFORM: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.overview p {
+	
+	 font-size: 17px;
+    font-weight:normal;
+	color: #785a5a;
+}
+
+.overview h4 {
+		
+	color: #858585;
+    font-weight: inherit;
+}
+
+.overview button {
+	
+	background-color: #ff2724de;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 17px;
+	    margin-top: 20px;
+}
+
+
+
+ .featured-work {
+	
+	padding: 50px 0;
+	 text-align: center;
+}
+
+ .featured-work h2 {
+	
+	 font-weight: bold;
+	 font-size: 50px;
+	 margin-bottom: 30px;
+	
+}
+
+ .featured-work ul {
+	margin-top: 30px;
+	 
+}
+
+ .featured-work ul li {
+     padding: 10px 10px;
+	 border: solid 1px  #08526d;
+	 margin-left: 10px;
+	 margin-bottom: 5px;
+	 cursor: pointer;
+	/* transition-timing-function: ease-in-out;
+	 -webkit-transition: all. 3s ease-in-out;
+	 -moz-transition: all. 3s ease-in-out;
+	 -o-transition: all. 3s ease-in-out;*/
+	 
+}
+
+ .featured-work ul li.active,
+ .featured-work ul li:hover {
+     
+	 transition: 0.5s ease-in-out;
+	background-color: #ec1c23;
+	color: white;
+	border-radius: 5px 5px;
+    
+	
+}
+
+.featured-work .shuffle-imgs .row{
+	
+   margin: 0px;
+	
+}
+
+.featured-work .row .col-md-6, col-lg-3 {
+	transition: 1s ease-in-out;
+	padding: 0;
+   
+   
+	
+}
+
+.featured-work .row  img {
+	 
+	width: 100%;
+	
+}
+
+/* lastes-posts */
+
+.lastes-posts .row .card {
+	
+    margin-left: 20px;
+	margin-top: 20px;
+	padding: 0px ;
+    text-align: left;
+}
+
+.lastes-posts .row .card a {
+	
+	color:  #ec1c23;
+	font-weight: bold;
+}
+
+.lastes-posts .row .card p {
+	
+	color: #808784;
+	
+}
+
+.lastes-posts .row .card h5 {
+	
+	color: #08526d;
+	
+}
+
+.head{
+    
+    font-family: 'Almarai', sans-serif;
+}
